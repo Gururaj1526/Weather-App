@@ -1,0 +1,29 @@
+/* section h1:first-child{
+    color:red;
+    background-color: aqua;
+}
+section h1:last-child{
+    color: blue;
+    background-color: bisque;
+}
+section h1:nth-child(2)
+{
+    background-color: blueviolet;
+    color: greenyellow;
+}
+section h1:nth-child(2n)
+{
+    background-color: blueviolet;
+    color: greenyellow;
+} */
+section p:first-of-type{
+    color: chartreuse;
+    background-color: black;
+}
+section p:last-of-type{
+    color: crimson;
+    background-color: black;
+}
+section p:nth-child(1){
+    color:brown;
+}

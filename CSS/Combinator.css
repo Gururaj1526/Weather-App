@@ -1,0 +1,37 @@
+/* .mainpart{
+    height:500px;
+    width:100%;
+    background-color: rgb(5, 19, 45);
+    color: wheat    ;
+}
+.headpart{
+    height: 250px;
+    width:90%;
+    background-color: crimson;
+    margin-left: 5%;
+}
+.navbar{
+    height: 80px;
+    width: 95%;
+    background-color: aqua;
+    margin-left: 2.5%;
+}
+.king h1{/*This is used as descendent Selector*/
+    /* color: red;
+}
+.king >h1{/*This is used as child selector*/
+/* color: black;
+} */ 
+ section ~ p{
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: italic;
+     text-shadow: 0px 0px 10px  red;
+ }
+ section{
+    color:orangered;
+    font-size: xx-large;
+    font-style: oblique;
+    text-shadow: 0px 0px 10px;
+ }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinder Application</title>
+</head>
+<style>
+    label{
+         color:rgb(49, 144, 222);
+        
+    }
+    input{
+        border: 2px solid rgb(146, 143, 12);
+        border-radius: 30px;
+        background-color: lightgrey;
+    }
+    button{
+        background-color: aqua;
+        color: blue;
+        border: solid black;
+        border-radius: 20px;
+       
+    }
+</style>
+
+<body>
+    <section>
+        <form action="">
+            <fieldset>
+                <legend>
+                    <h1>Tinder Application </h1>
+                </legend>
+
+                <label for="FN">Full Name:</label><br>
+                <input type="text" id="FN" class="FullName" placeholder="First Letter Capital"  ><br><br>
+                <label for="EMAIL">Email:</label><br>
+                <input type="email" id="EMAIL" name="Email" disabled placeholder="Enter Email"><br><br>
+                <label for="Contact">Contact No:</label><br>
+                <input type="tel" id="Contact" name="Contact" maxlength="10" minlength="10" required placeholder="Enter Contact Number"><br><br>
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="Age" ><br><br>
+                <label for="date">Date Of Birth:</label><br>
+                <input type="date" id="date" name="DOB" max="2024-07-25" min="2024-07-15"><br><br>
+                <label for="hobbies">Hobbies:</label><br>
+                <textarea name="Hobbies" id="hobbies" rows="5" cols="30"></textarea><br><br>
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="gender" name="gender" value="Women">Wonder Women <br>
+                <input type="radio" id="gender" name="gender" value="Male">Alpha Male <br>
+                <input type="radio" id="gender" name="gender" value="Female">Others <br><br>
+                <label for="skills">Technical Skills:</label><br>
+                <input type="checkbox" id="skills" value="Good Looks" name="skills">Good Looks
+                <input type="checkbox" id="skills" value="Sense of Humor" name="skills">Sense of Humor
+                <input type="checkbox" id="skills" value="Understanding" name="skills">Understanding
+                <input type="checkbox" id="skills" value="Money" name="skills">Money <br><br>
+                <label for="photos">Upload Your Photos:</label><br>
+                <input type="file" id="photos" name="photos"><br><br>
+                <label for="education">Education</label>
+                <br>
+                <select name="education" id="education">
+                    <optgroup label="Bachlores">
+                        <option value="none">--Select--</option>
+                        <option value="BCS">BCS</option>
+                        <option value="BCA">BCA</option>
+                        <option value="B.TECH">B.TECH</option>
+                        <option value="B.E">B.E</option>
+                    </optgroup>
+                    <optgroup label="Masters">
+                        <option value="none">--Select--</option>
+                        <option value="MCS">MCS</option>
+                        <option value="MCA">MCA</option>
+                        <option value="M.TECH">M.TECH</option>
+                        <option value="M.E">M.E</option>
+                    </optgroup>
+
+                </select><br><br>
+<input type="password" placeholder="Password" pattern="[A-Za-z0-9@!#$%^&*]{8}" size="20">
+
+                <br><br>
+
+
+                <button>Submit</button>
+
+
+
+        </form>
+        </fieldset>
+    </section>
+
+</body>
+
+</html>

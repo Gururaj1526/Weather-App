@@ -1,0 +1,71 @@
+.mainPart{
+    height:2000px;
+    width:100%;
+    background-color: dimgray;
+}
+.mainPart .firstSec{
+    height: 400px;
+    width: 100%;
+    background-color: plum;
+}
+.firstSec .Images> img{
+    height:300px;
+    width: 300px;
+    margin:20px;
+    border-radius: 20px;
+    box-shadow: 10px 15px 15px 0px;
+    border: black solid;
+}
+.firstSec .names > span {
+    font-size: 30px;
+    margin: 130px;
+}
+.mainPart .secondSec{
+    height: 400px;
+    width: 100%;
+    background-color: aquamarine;
+}
+.secondSec .seconddiv>img{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 15px 15px 0px;
+}
+.mainPart .thirdSec{
+height: 400px;
+width: 100%;
+background-color: beige;
+
+}
+.thirdSec .thirdDiv>img{
+    height: 300px;
+    width:300px;
+    margin: 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    box-shadow: 5px 15px 15px 0px;
+}
+.mainPart .fourthSec{
+   height: 400px;
+   width: 100%;
+   background-color: blanchedalmond;
+
+}
+.fourthSec .fourthDiv>img
+{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 15px 15px 5px;
+
+}
+#head{
+    height: 300px;
+    width: 100%;
+    background:url(./Images/OIP\(12\).jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

@@ -1,0 +1,21 @@
+.navbar{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+    position: fixed;
+
+}
+a{
+    text-decoration: none;
+    padding-top: 50px;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}
+li{
+    display: flex;
+    display: inline-block;
+    list-style-type: none;
+}

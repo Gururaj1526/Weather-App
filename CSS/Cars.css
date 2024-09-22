@@ -1,0 +1,51 @@
+*{
+    background-color:antiquewhite;
+}
+
+img{
+ height:250px;
+ width:24%;
+ 
+ border-radius: 20px;
+ 
+}
+h1{
+    font-size: 50px;
+    color: blue;
+    text-decoration:double underline ;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 30px;
+    color:red;
+    text-transform:uppercase;
+    text-decoration: dashed underline dimgray;
+}
+.cars
+{
+    border-color: black;
+    box-shadow: 5px 15px 15px 5px;
+    
+}
+#bike
+{
+    border: solid 3px black;
+    box-shadow: 5px 15px 15px 5px;
+    box-shadow: dimgray;
+}
+#suv
+{
+   border: solid 4px grey;
+   box-shadow: 5px 15px 20px 5px;
+}
+#orcar
+{
+    border: 3px solid orange;
+    border-radius: 20px;
+   box-shadow: 5px 15px 15px 5px; 
+}
+span{
+   color:rgb(23, 70, 55);
+   font-size:large;
+}
+

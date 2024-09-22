@@ -1,0 +1,36 @@
+.div{
+    height:450px;
+    width:800px;
+    background-color: antiquewhite;
+}
+.div #p::first-line{
+    font-size: large;
+    color: blueviolet;
+}
+.div p::first-letter{
+    font-size: 50px;
+}
+h1::before{
+    content: "😘😘😘😜😜😜";
+}
+h1::after{
+    content:"Thank Youuuuuu.............!!!!!!!!!!!"
+}
+h2::before{
+    content:" 😎😎😉😉";
+}
+h2::after{
+    content:"VERY MUCHHHHHHHHHUUUUUUUU......!!!!!!!!!!"
+}
+p::selection{
+    background-color: rgb(177, 234, 8);
+    color: rgb(14, 48, 219);
+    text-shadow: 4px 2px 5px rgb(32, 32, 218);
+}
+li::marker{
+    color: rgb(54, 165, 42);
+    font-size: xx-large;
+}
+*{
+    background-color: brown;
+}

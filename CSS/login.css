@@ -1,0 +1,36 @@
+main{
+    height: 600px;
+    width: 100%;
+
+}
+section{
+    height: 400px;
+    width: 400px;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+section h1{
+    text-align: center;
+    padding-top: 0px;
+    font-size: 52px;
+    text-decoration: underline;
+}
+section label{
+    padding-left: 50px;
+    font-size: 30px;
+}
+section input{
+    padding-left: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+section button{
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 150px;
+}
